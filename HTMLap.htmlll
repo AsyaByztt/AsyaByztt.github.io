@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsHub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        section {
+            margin: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            font-size: 16px;
+        }
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+        .external-source {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>NewsHub</h1>
+</header>
+
+<section>
+    <h2>Latest News Article</h2>
+    <p>Welcome to NewsHub, your go-to source for breaking news. Here's a sneak peek of our latest article on recent developments in technology.</p>
+    <a href="article.html" class="button">Read the full article</a>
+</section>
+
+<section class="external-source">
+    <h2>External News Source</h2>
+    <p>Check out this news story on the latest election coverage from an external source:</p>
+    <a href="https://www.example.com" target="_blank" class="button">View External News</a>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article - NewsHub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        section {
+            margin: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            font-size: 16px;
+        }
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>NewsHub</h1>
+</header>
+
+<section>
+    <h2>Recent Developments in Technology</h2>
+    <p>This is where the full article will go. A deep dive into the most recent advancements in artificial intelligence, machine learning, and their impact on the industry.</p>
+    <p>Further details will be included in the full article as more information becomes available. Stay tuned!</p>
+    <a href="index.html" class="button">Back to News Hub</a>
+</section>
+
+<section>
+    <h2>Download PDF</h2>
+    <p>Click below to download the article as a PDF:</p>
+    <a href="documents/article.pdf" class="button" target="_blank">Download PDF</a>
+</section>
+
+</body>
+</html>
