@@ -1,0 +1,78 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* CSS Grid Layout for Page */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* Creates 3 columns */
+    grid-template-rows: auto auto; /* Allows automatic row height based on content */
+    gap: 20px;
+}
+
+/* Grid Section Styles */
+.section {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+/* Flexbox for Assembling the Puzzle */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.flex-item {
+    width: 30%;
+    height: 200px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+}
+
+.flex-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Hiding the Faulty Puzzle Piece */
+.hidden {
+    display: none;
+}
+
+/* Additional Design Styling */
+section p {
+    text-align: center;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr; /* Stack all sections on smaller screens */
+    }
+
+    .flex-item {
+        width: 45%; /* Smaller puzzle pieces on mobile */
+    }
+}
