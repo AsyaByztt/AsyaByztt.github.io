@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- CSS Grid Layout: Page Sections -->
+    <header class="grid-container">
+        <section class="section" id="name-and-puzzle">
+            <h1>Asya's Puzzle Assignment</h1>
+            <h2>Selected Puzzle: Fish</h2>
+            <p>Completed on: March 7, 2025</p>
+        </section>
+
+        <section class="section" id="puzzle-image">
+            <h3>Assembled Puzzle</h3>
+            <div class="flex-container">
+                <div class="flex-item" id="piece1"><img src="images/piece1.jpg" alt="Piece 1"></div>
+                <div class="flex-item" id="piece2"><img src="images/piece2.jpg" alt="Piece 2"></div>
+                <div class="flex-item" id="piece3"><img src="images/piece3.jpg" alt="Piece 3"></div>
+                <div class="flex-item" id="piece4"><img src="images/piece4.jpg" alt="Piece 4"></div>
+                <div class="flex-item hidden"><img src="images/faulty.jpg" alt="Faulty Piece"></div>
+            </div>
+        </section>
+
+        <section class="section" id="date">
+            <p>Assignment Date: March 7, 2025</p>
+        </section>
+    </header>
+</body>
+</html>
