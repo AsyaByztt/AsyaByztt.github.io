@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Flashcards Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="page-title">Review Quiz: CSS & HTML Basics</h1>
+
+    <div class="card-container">
+        <div class="card">
+            <div class="question">What does CSS stand for?</div>
+            <div class="answer">Cascading Style Sheets</div>
+        </div>
+
+        <div class="card">
+            <div class="question">What tag defines a link in HTML?</div>
+            <div class="answer">&lt;a&gt;</div>
+        </div>
+
+        <div class="card">
+            <div class="question">Which CSS property controls text size?</div>
+            <div class="answer">font-size</div>
+        </div>
+
+        <div class="card">
+            <div class="question">What does HTML stand for?</div>
+            <div class="answer">HyperText Markup Language</div>
+        </div>
+
+        <div class="card">
+            <div class="question">How do you center a div?</div>
+            <div class="answer">Using margin: auto or flexbox/grid</div>
+        </div>
+
+        <div class="card">
+            <div class="question">What does the z-index property control?</div>
+            <div class="answer">Element stacking order</div>
+        </div>
+
+        <div class="card">
+            <div class="question">How do you change background color in CSS?</div>
+            <div class="answer">background-color property</div>
+        </div>
+
+        <div class="card">
+            <div class="question">What is the default display type for a div?</div>
+            <div class="answer">block</div>
+        </div>
+    </div>
+</body>
+</html>
