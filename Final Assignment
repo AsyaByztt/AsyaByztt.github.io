@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DHMI Volleyball Team Official Website">
+    <meta name="keywords" content="volleyball, sports team, DHMI, Ankara champions">
+    <meta name="author" content="Asya Bayazıt">
+    <link rel="stylesheet" href="style.css">
+    <title>DHMI Volleyball Team</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to DHMI Volleyball Team's Official Website!</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="players.html">Our Players</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="welcome">
+        <h2>🏐 DHMI Volleyball Team: Champions of Ankara! 🏐</h2>
+        <p>We are a passionate and dedicated volleyball team representing DHMI. With multiple victories under our belt, including being Ankara champions and placing 4th in Turkey, we continue to aim higher and train harder!</p>
+    </section>
+
+    <section id="highlights">
+        <h2>🏅 Our Achievements</h2>
+        <ul>
+            <li>🥇 Ankara 1st Place Champions</li>
+            <li>🏅 4th Place in Turkey</li>
+            <li>💪 Strong team spirit and unstoppable dedication</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 DHMI Volleyball Team. All rights reserved.</p>
+    </footer>
+</body>
+</html>
