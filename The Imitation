@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS3 Image Effects Showcase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CSS3 Image Effects Showcase</h1>
+
+    <div class="image-container">
+        <h2>Project 1: Shadow Effect</h2>
+        <img src="images/source1.jpg" class="shadow-effect" alt="Shadow Effect">
+    </div>
+
+    <div class="image-container">
+        <h2>Project 2: Gradient Overlay</h2>
+        <img src="images/source2.jpg" class="gradient-effect" alt="Gradient Effect">
+    </div>
+
+    <div class="image-container">
+        <h2>Project 3: Grayscale Filter</h2>
+        <img src="images/source3.jpg" class="grayscale-effect" alt="Grayscale Effect">
+    </div>
+
+    <div class="image-container">
+        <h2>Project 4: Blur Filter</h2>
+        <img src="images/source4.jpg" class="blur-effect" alt="Blur Effect">
+    </div>
+
+    <div class="image-container">
+        <h2>Project 5: Brightness & Contrast</h2>
+        <img src="images/source5.jpg" class="contrast-effect" alt="Brightness and Contrast Effect">
+    </div>
+
+    <div class="image-container">
+        <h2>Project 6: Football Field with Tic-Tac-Toe Overlay</h2>
+        <div class="football-field">
+            <img src="images/football_field.jpg" class="field" alt="Football Field">
+            <img src="images/tic-tac-toe.png" class="overlay" alt="Tic Tac Toe Overlay">
+        </div>
+    </div>
+</body>
+</html>
